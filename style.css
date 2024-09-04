@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+   background-color: hsl(47, 88%, 63%);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.all{
+    width: 375px;
+    height: 470px;
+    margin-top: 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    box-shadow: 10px 10px 5px 0px black
+}
+
+.continer{
+    margin: auto;
+    width: 90%;
+    padding-top: 5px;
+}
+.img{
+    border-radius: 15px;
+}
+.prgrph1{
+    font-size: 16px;
+    font-weight:16px;
+    background-color: (0, 0%, 7%)
+}
+.prgrph2{
+    color: hsl(0, 0%, 42%);
+    font-size: 16px;
+    font-weight:30px;
+}
+button{
+    background-color:hsl(47, 88%, 63%) ;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 90px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.profile{
+    display: flex;
+    text-align: center;
+}
+
+.profile img{
+width: 30px;
+
+}
+.profile .name{
+    font-size: 16px;
+    text-align: center;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.attribution { font-size: 10px; text-align: right;
+}
+    .attribution a { color: hsl(228, 45%, 44%); }
